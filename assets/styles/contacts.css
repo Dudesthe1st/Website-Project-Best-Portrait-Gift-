@@ -52,6 +52,10 @@
     margin: 3px;
    
 }
+.spacer{
+    padding-bottom: 200px;
+    
+}
 
 
 @media(max-width:768px){
