@@ -7,6 +7,9 @@
     gap: 5%;
 
 }
+#home_main{
+    padding-bottom: 100px;
+}
 
 .discription{
     background-color: rgba(23, 30, 59, 0.8);
