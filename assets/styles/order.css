@@ -1,0 +1,108 @@
+.order_form{
+    margin: 1%;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.price_details{
+    background-color:  rgba(23, 30, 59, 0.8);
+    padding: 40px;
+    border: 2px solid rgb(41, 3, 3);
+    border-radius: 30px;
+    margin: 1%;
+    width: 25%;
+}
+
+.price_details li{
+    color: white;
+    margin: 10px;
+    background-color: rgba(23, 30, 59, 0.8) ;
+    padding: 10px;
+    border-radius: 40px;
+    font-weight: bold;
+    font-size: medium;
+
+    
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   background-color:  rgba(23, 30, 59, 0.8);
+    padding: 40px;
+    border: 2px solid rgb(41, 3, 3);
+    border-radius: 30px;
+  margin: 1%;
+  width: 45%;
+
+}
+.form h2{
+    font-size: xx-large;
+    text-decoration: underline;
+}
+.form label{
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+}
+.form input{
+    border-radius: 30px;
+    height: 20px;
+    width:70%;
+    padding: 0;
+}
+.price_details h2{
+    font-size: xx-large;
+    text-decoration: underline;
+}
+
+.form textarea{
+    border-radius: 20px;
+    height: 100px;
+    width: 70%;
+}
+
+@media(max-width:768px){
+    .order_form{
+        flex-direction: column;
+    }
+
+    .form label{
+    font-size: x-small;
+    
+}
+.price_details li{
+   
+    font-size: x-small;
+
+    
+}
+.form h2{
+    font-size: medium;
+}
+
+.price_details h2{
+   
+    font-size: medium;
+}
+.form input{
+    border-radius: 30px;
+    height: 20px;
+    width:95%;
+    padding: 0;
+}
+.form{
+ 
+  width: 90%;
+
+}
+.price_details{
+   
+    width: 90%;
+}
+
+}

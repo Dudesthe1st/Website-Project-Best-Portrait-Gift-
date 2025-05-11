@@ -1,0 +1,17 @@
+footer{
+     background-image: linear-gradient(to bottom, rgba(33, 48, 56, .9), rgb(33, 48, 56));
+    padding: 30px;
+    margin-top: 20%;
+    min-height: 50%;
+    width: 100%;
+    Position: relative;
+
+}
+footer p{
+    font-size: x-small;
+}
+
+.qq{
+    padding: 0.7%;
+    font-size: 90%;
+}

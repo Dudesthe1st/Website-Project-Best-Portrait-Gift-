@@ -1,0 +1,14 @@
+.submission_main{
+    height: 700px;
+}
+
+.submission_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:  rgba(23, 30, 59, 0.8) ;
+    padding: 50px;
+    margin: 20%;
+    border-radius: 100px;
+}

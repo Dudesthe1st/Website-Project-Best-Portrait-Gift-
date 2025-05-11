@@ -1,0 +1,49 @@
+.doh{
+margin: 1%;
+
+ background-image: linear-gradient(to right, rgba(151,157,173,.8), rgb(29,40,58));
+}
+.doh h2{
+    padding-top: 3%;
+    font-size: 25px;
+    padding-bottom: 8%;
+}
+h3{
+    font-size: 49px;
+}
+
+.bottom{
+    font-size: larger;
+    padding-bottom: 10%;
+}
+
+.sed{
+    padding: 1%;
+}
+
+@media(max-width: 768px){
+.doh h1{
+    padding-top: 3%;
+    font-size: 30px;
+    padding-bottom: 7%;
+}
+}
+.doh h2{
+
+    padding-top: 3%;
+    font-size: 20px;
+    padding-bottom: 7%;
+}
+
+.doh h3{
+    font-size: 30px;
+}
+
+.bottom{
+    padding-bottom: 10%;
+}
+
+.sed{
+    padding: 0%;
+}
+
