@@ -54,6 +54,7 @@
     height: 20px;
     width:70%;
     padding: 0;
+    background-color: rgb(255, 255, 255);
 }
 .price_details h2{
     font-size: xx-large;
